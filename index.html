@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentient Music Technologies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Overrides to make the preview content fill the page */
+        body {
+            background: white; /* Sentient site seems to be white or light based on preview container */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <a href="#" class="site-logo">
+            <svg width="40" height="40" viewBox="0 0 100 100">
+                <defs>
+                    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#ffffff"/>
+                        <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.8"/>
+                    </linearGradient>
+                </defs>
+                <!-- Simple brain-note mark for header -->
+                <circle cx="30" cy="45" r="25" fill="none" stroke="white" stroke-width="2.5" opacity="0.9"/>
+                <circle cx="55" cy="45" r="25" fill="none" stroke="white" stroke-width="2.5" opacity="0.9"/>
+                <ellipse cx="50" cy="55" rx="10" ry="7" fill="white" transform="rotate(-20 50 55)"/>
+                <rect x="58" y="30" width="2.5" height="24" fill="white"/>
+                <path d="M60.5 30 C60.5 30, 72 32, 74 38 C75 41, 72 43, 68 42 C66 41.5, 63 40, 60.5 38 L60.5 34 C63 35, 67 35, 68 34 C69 33, 68 31, 65 30.5 C63 30, 60.5 31, 60.5 31 Z" fill="white"/>
+            </svg>
+            <span class="site-logo-text">Sentient Music Technologies</span>
+        </a>
+        <nav class="site-nav">
+            <a href="#products">Products</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Intelligence Meets Artistry</h1>
+        <p>We build AI-powered music applications that help musicians practice smarter, learn faster, and perform better.</p>
+        <div class="hero-cta">
+            <a href="#products" class="btn btn-primary">Explore Our Apps</a>
+            <a href="#services" class="btn btn-secondary">Consulting Services</a>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+        <div class="section-header">
+            <h2>Our Products</h2>
+            <p>The BrioMoto family of music practice applications</p>
+        </div>
+        <div class="product-grid">
+            <div class="product-card featured">
+                <div class="product-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40">
+                        <defs>
+                            <linearGradient id="brioGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea"/>
+                                <stop offset="100%" style="stop-color:#764ba2"/>
+                            </linearGradient>
+                        </defs>
+                        <rect width="40" height="40" rx="8" fill="url(#brioGrad)"/>
+                        <text x="20" y="26" text-anchor="middle" fill="white" font-family="Georgia" font-size="14" font-weight="bold">B</text>
+                    </svg>
+                </div>
+                <h3>BrioMoto</h3>
+                <p>Our flagship AI-powered music practice app. Get personalized feedback, track your progress, and improve faster with intelligent practice recommendations.</p>
+                <a href="https://briomoto.com" class="product-link">Learn More →</a>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40">
+                        <rect width="40" height="40" rx="8" fill="#f0f0ff"/>
+                        <text x="20" y="26" text-anchor="middle" fill="#667eea" font-family="Georgia" font-size="12">♩</text>
+                    </svg>
+                </div>
+                <h3>Coming Soon</h3>
+                <p>More apps in the BrioMoto family are on the way. Stay tuned for tools designed for specific instruments and skill levels.</p>
+                <a href="#" class="product-link">Get Notified →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <h2>Consulting Services</h2>
+            <p>Bring your app vision to life</p>
+        </div>
+        <div class="services-content">
+            <div class="services-text">
+                <h3>App Development & Strategy</h3>
+                <p>Beyond our own products, Sentient Music Technologies offers consulting and development services for clients looking to build innovative applications.</p>
+                <ul class="services-list">
+                    <li>iOS & Android app development</li>
+                    <li>AI/ML integration & strategy</li>
+                    <li>Music technology solutions</li>
+                    <li>Product design & UX consulting</li>
+                    <li>Technical architecture review</li>
+                </ul>
+            </div>
+            <div class="contact-card" id="contact">
+                <h4>Let's Build Together</h4>
+                <p>Have an app idea? We'd love to hear about your project and explore how we can help.</p>
+                <a href="mailto:hello@sentientmusictech.com" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-logo">
+            <svg width="30" height="30" viewBox="0 0 100 100">
+                <circle cx="30" cy="45" r="25" fill="none" stroke="white" stroke-width="2.5" opacity="0.6"/>
+                <circle cx="55" cy="45" r="25" fill="none" stroke="white" stroke-width="2.5" opacity="0.6"/>
+                <ellipse cx="50" cy="55" rx="10" ry="7" fill="white" opacity="0.8" transform="rotate(-20 50 55)"/>
+                <rect x="58" y="30" width="2.5" height="24" fill="white" opacity="0.8"/>
+            </svg>
+            <span>Sentient Music Technologies, LLC</span>
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="mailto:hello@sentientmusictech.com">Contact</a>
+        </div>
+        <p class="copyright">© 2025 Sentient Music Technologies, LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
