@@ -1,7 +1,7 @@
 
-  # Design Logo System for SMT
+  # Sentient Music Technology Web Design
 
-  This is a code bundle for Design Logo System for SMT. The original project is available at https://www.figma.com/design/SZwRxiw1ZOqSMXGZGXnMuC/Design-Logo-System-for-SMT.
+  This is a code bundle for Sentient Music Technology Web Design. The original project is available at https://www.figma.com/design/SZwRxiw1ZOqSMXGZGXnMuC/Sentient-Music-Technology-Web-Design.
 
   ## Running the code
 
