@@ -1,1 +1,15 @@
+# Defaults
 .DS_Store
+.env
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
